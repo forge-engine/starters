@@ -1,0 +1,15 @@
+{
+  "name": "Auth Starter",
+  "kernel": {
+    "name": "forge-kernel",
+    "version": "latest"
+  },
+  "modules": {
+    "forge-package-manager": "latest",
+    "forge-auth": "latest",
+    "forge-components": "latest",
+    "forge-router": "latest",
+    "forge-view": "latest",
+    "forge-sql-orm": "latest"
+  }
+}

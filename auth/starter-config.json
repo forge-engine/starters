@@ -1,0 +1,28 @@
+{
+  "options": [
+    {
+      "key": "architecture",
+      "label": "Auth Architecture",
+      "type": "select",
+      "required": true,
+      "default": "modular",
+      "options": [
+        {
+          "value": "modular",
+          "label": "Modular",
+          "description": "Auth, landing, and admin provided by installable modules (ForgeAppAuth, ForgeLanding, ForgeAdminConsole)",
+          "modules": {
+            "forge-app-auth": "latest",
+            "forge-landing": "latest",
+            "forge-admin-console": "latest"
+          }
+        },
+        {
+          "value": "monolithic",
+          "label": "Monolithic",
+          "description": "Auth, landing, and admin code lives directly in app/"
+        }
+      ]
+    }
+  ]
+}

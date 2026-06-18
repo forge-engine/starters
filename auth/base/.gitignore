@@ -1,0 +1,8 @@
+.env
+!.env.example
+.DS_Store
+/vendor/
+/node_modules/
+*.zip
+.idea/
+.vscode/
