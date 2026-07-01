@@ -1,5 +1,5 @@
 {
-  "name": "Minimal Blueprint",
+  "name": "Minimal Http Blueprint",
   "kernel": {
     "name": "forge-kernel",
     "version": "latest"
